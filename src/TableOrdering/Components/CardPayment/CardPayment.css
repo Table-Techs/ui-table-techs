@@ -1,0 +1,44 @@
+.payment-div {
+    padding-inline: 20px;
+}
+
+.payment-total {
+    text-align: center;
+    font-size: 24px;
+}
+
+form>* {
+    margin: 10px 0;
+}
+
+.payment-btn {
+    width: 100%;
+    background-color: var(--primary-accent);
+    color: var(--light-bg);
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.payment-btn-disabled {
+    width: 100%;
+    color: var(--primary-accent);
+    background-color: var(--light-bg);
+    border: 1px solid var(--primary-accent);
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.payment-error-message {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 8px;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.1);
+    text-align: center;
+}
