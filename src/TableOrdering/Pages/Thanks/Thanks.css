@@ -1,0 +1,81 @@
+.thanks-bg {
+    padding-top: 50px;
+    background-color: var(--light-bg);
+    height: 100vh;
+}
+
+.thanks-banner-div {
+    padding: 70px 50px 20px 50px;
+}
+
+.thanks-banner {
+    max-width: 100%;
+    border: 1px solid var(--primary-accent);
+    box-shadow: 2px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.thanks-title-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.thanks-email-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks-email-input {
+    border: none;
+    font-size: 16px;
+    background-color: var(--light-bg);
+    width: 80%;
+    padding: 10px 5px;
+    border-bottom: 1px solid var(--primary-accent);
+}
+
+.thanks-email-btn {
+    color: var(--primary-accent);
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.thanks-hr-line {
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    margin-block: 70px 60px;
+}
+
+.thanks-review-text {
+    text-align: center;
+    margin: 0;
+}
+
+.thanks-review-star-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.thanks-review-star {
+    color: gold;
+    font-size: 36px;
+    margin: 10px 5px;
+}
+
+.thanks-rate-us-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks-rate-us-div a {
+    text-decoration: none;
+}
+
+.thanks-rate-us-text {
+    background-color: var(--primary-accent);
+    color: var(--light-bg);
+    padding: 15px 40px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
